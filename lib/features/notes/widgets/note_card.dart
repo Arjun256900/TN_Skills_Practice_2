@@ -25,6 +25,7 @@ class _NoteCardState extends State<NoteCard> {
       },
       background: Container(
         padding: const EdgeInsets.only(right: 20),
+        margin: const EdgeInsets.only(bottom: 20),
         decoration: BoxDecoration(
           color: Colors.redAccent,
           borderRadius: BorderRadius.circular(29),
